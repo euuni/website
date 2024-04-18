@@ -78,8 +78,8 @@
   }
 
   button:hover {
-    color: red;
-    background-color: yellow;
+    color: darkred;
+    background-color: wheat;
   }
 tr:nth-child(even) {
   background-color: #ddd;
@@ -99,4 +99,44 @@ font-style: oblique;
 .left-aligned-image {
     float: inline-start;
     margin-right: 30px; /* Adjust this as needed */
-  }
+}
+
+
+/* 기본 스타일 */
+.custom-button {
+  /* 공통 스타일 */
+  font-weight: bold;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* 핑크색 버튼 */
+.custom-button-pink {
+  background-color: #ed64a6; /* 핑크색 배경색상 */
+  color: #fff; /* 흰색 텍스트 색상 */
+}
+
+.custom-button-pink:hover {
+  background-color: #d53f8c; /* 마우스 호버시 배경색상 */
+}
+
+/* 파란색 버튼 */
+.custom-button-blue {
+  background-color: #4299e1; /* 파란색 배경색상 */
+  color: #fff; /* 흰색 텍스트 색상 */
+}
+
+.custom-button-blue:hover {
+  background-color: #2b6cb0; /* 마우스 호버시 배경색상 */
+}
+
+/* 노란색 버튼 */
+.custom-button-yellow {
+  background-color: #f6e05e; /* 노란색 배경색상 */
+  color: #000; /* 검은색 텍스트 색상 */
+}
+
+.custom-button-yellow:hover {
+  background-color: #f6e05e; /* 마우스 호버시 배경색상 */
+}

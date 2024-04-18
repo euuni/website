@@ -14,7 +14,7 @@ function reset() {
   document.body.style.backgroundColor = 'linen'
 }
 function showbb() {
-    document.getElementById('fig').src = 'img/basball.png'
+    document.getElementById('fig').src = 'img/baseball.png'
     document.getElementById('desc').innerHTML =
       '⚾︎야구를 사랑할까말까⚾︎'
   }
